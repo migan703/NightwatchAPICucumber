@@ -15,7 +15,6 @@
  * @file Config.js
  * @description file with the configuration variables
  */
-
 exports.APP_URL ='https://web.facebook.com';
 exports.IdFristNameForm ='input[name="firstname"]';
 exports.IdLastNameForm ='input[name="lastname"]';
@@ -25,5 +24,6 @@ exports.IdPassForm ='input[name="reg_passwd__"]';
 exports.IdMonthControl ='select[name="birthday_month"]';
 exports.IdDateControl ='select[name="birthday_day"]';
 exports.IdYearControl ='select[name="birthday_year"]';
-exports.IdGenderOption ='input[id="u_0_a"]';
-exports.IdSingUpButton ='input[id="u_0_y"]';
+//exports.IdGenderOption ='input[id="u_0_a"]';
+exports.IdGenderOption ='._8esa[value="2"]';
+exports.IdSingUpButton ='input[name="websubmit"]';

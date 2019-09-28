@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5637000000
+              "duration": 4296000000
             }
           },
           {
@@ -39,102 +39,102 @@
             "line": 16,
             "name": "the title is \"Facebook - Entrar o registrarse\"",
             "match": {
-              "location": "features\\step_definitions\\example.js:36"
+              "location": "features\\step_definitions\\example.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 28000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 17,
-            "name": "I write the text \"Juanito Alimaña\" in the first name form",
+            "name": "I write the text \"Juanito Alimaña\" in the \"first name\" form",
             "match": {
-              "location": "features\\step_definitions\\example.js:41"
+              "location": "features\\step_definitions\\example.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 2155000000
+              "duration": 2228000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "I write the text \"Lavoe\" in the last name form",
+            "name": "I write the text \"Lavoe\" in the \"last name\" form",
             "match": {
-              "location": "features\\step_definitions\\example.js:48"
+              "location": "features\\step_definitions\\example.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 2092000000
+              "duration": 2143000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 19,
-            "name": "I write the text \"migan703@gmail.com\" in the email form",
+            "name": "I write the text \"migan703@gmail.com\" in the \"email\" form",
             "match": {
-              "location": "features\\step_definitions\\example.js:55"
+              "location": "features\\step_definitions\\example.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 176000000
+              "duration": 2199000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 20,
-            "name": "I write the text \"Pas_123456\" in the password form",
+            "name": "I write the text \"Pas_123456\" in the \"password\" form",
             "match": {
-              "location": "features\\step_definitions\\example.js:64"
+              "location": "features\\step_definitions\\example.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 2116000000
+              "duration": 2139000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 21,
-            "name": "I select the month \"Aug\" in the month control",
+            "name": "I select \"Aug\" in the \"month\" control",
             "match": {
-              "location": "features\\step_definitions\\example.js:71"
+              "location": "features\\step_definitions\\example.js:105"
             },
             "result": {
               "status": "passed",
-              "duration": 2073000000
+              "duration": 2131000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 22,
-            "name": "I select the day \"21\" in the day control",
+            "name": "I select \"21\" in the \"day\" control",
             "match": {
-              "location": "features\\step_definitions\\example.js:78"
+              "location": "features\\step_definitions\\example.js:105"
             },
             "result": {
               "status": "passed",
-              "duration": 2088000000
+              "duration": 2143000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 23,
-            "name": "I select the year \"1989\" in the year control",
+            "name": "I select \"1989\" in the \"year\" control",
             "match": {
-              "location": "features\\step_definitions\\example.js:85"
+              "location": "features\\step_definitions\\example.js:105"
             },
             "result": {
               "status": "passed",
-              "duration": 2071000000
+              "duration": 2121000000
             }
           },
           {
@@ -143,24 +143,24 @@
             "line": 24,
             "name": "I select Male in the Gender option",
             "match": {
-              "location": "features\\step_definitions\\example.js:92"
+              "location": "features\\step_definitions\\example.js:110"
             },
             "result": {
               "status": "passed",
-              "duration": 2094000000
+              "duration": 2172000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 25,
-            "name": "I click the \"Sing Up\" button",
+            "name": "I click the Sing-In button",
             "match": {
-              "location": "features\\step_definitions\\example.js:98"
+              "location": "features\\step_definitions\\example.js:116"
             },
             "result": {
               "status": "passed",
-              "duration": 5088000000
+              "duration": 2175000000
             }
           },
           {
@@ -170,7 +170,8 @@
               "location": "cucumber.conf.js:48"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 2000000
             }
           }
         ]

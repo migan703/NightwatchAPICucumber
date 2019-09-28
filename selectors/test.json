@@ -1,3 +1,6 @@
 {
-  "search_form": "input[name='q']"
+  "first name": "input[name='firstname']",
+  "last name": "input[name='lastname']",
+  "email": "input[name='reg_email__']",
+  "password": "input[name='reg_email_confirmation__']"
 }

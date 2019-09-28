@@ -1,6 +1,7 @@
 const chromedriver = require('chromedriver');
 
 module.exports = {
+  page_objects_path: 'page_objects',
   test_settings: {
     test_workers : {enabled : true, workers : "auto"},
     chrome: {
