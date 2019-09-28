@@ -16,8 +16,8 @@ Scenario: Sing Up
   Then the title is "Facebook - Entrar o registrarse"
   Then I write the text "Juanito Alimaña" in the "first name" form
   Then I write the text "Lavoe" in the "last name" form
-  Then I write the text "migan703@gmail.com" in the "email" form
-  Then I write the text "migan703@gmail.com" in the "re-enter email" form
+  Then I write the text "migan701@gmail.com" in the "email" form
+  Then I write the text "migan701@gmail.com" in the "re-enter email" form
   Then I write the text "Pas_123456" in the "password" form
   Then I select "Aug" in the "month" control
   Then I select "21" in the "day" control
