@@ -30,150 +30,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3730000000
+              "duration": 3977000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 16,
-            "name": "the title is \"Facebook - Entrar o registrarse\"",
+            "name": "the title is \"Sign up for Facebook | Facebook\"",
             "match": {
               "location": "features\\step_definitions\\example.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 28000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "When ",
             "line": 17,
-            "name": "I write the text \"Juanito Alimaña\" in the \"first name\" form",
+            "name": "I fill all required account’s information",
             "match": {
               "location": "features\\step_definitions\\example.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 2200000000
+              "duration": 17456000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 18,
-            "name": "I write the text \"Lavoe\" in the \"last name\" form",
+            "name": "I can create a new account",
             "match": {
-              "location": "features\\step_definitions\\example.js:26"
+              "location": "features\\step_definitions\\example.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 2201000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "I write the text \"migan701@gmail.com\" in the \"email\" form",
-            "match": {
-              "location": "features\\step_definitions\\example.js:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2220000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "I write the text \"migan701@gmail.com\" in the \"re-enter email\" form",
-            "match": {
-              "location": "features\\step_definitions\\example.js:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2200000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 21,
-            "name": "I write the text \"Pas_123456\" in the \"password\" form",
-            "match": {
-              "location": "features\\step_definitions\\example.js:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2175000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 22,
-            "name": "I select \"Aug\" in the \"month\" control",
-            "match": {
-              "location": "features\\step_definitions\\example.js:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2141000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "I select \"21\" in the \"day\" control",
-            "match": {
-              "location": "features\\step_definitions\\example.js:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2138000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 24,
-            "name": "I select \"1989\" in the \"year\" control",
-            "match": {
-              "location": "features\\step_definitions\\example.js:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2128000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 25,
-            "name": "I select Male in the Gender option",
-            "match": {
-              "location": "features\\step_definitions\\example.js:36"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2172000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 26,
-            "name": "I click the Sing-In button",
-            "match": {
-              "location": "features\\step_definitions\\example.js:41"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2221000000
+              "duration": 2156000000
             }
           },
           {
@@ -183,8 +79,7 @@
               "location": "cucumber.conf.js:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "passed"
             }
           }
         ]

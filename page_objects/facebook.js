@@ -1,5 +1,5 @@
 module.exports = {
-  url: 'https://www.facebook.com/?_rdc=1&_rdr',
+  url: 'https://en-gb.facebook.com/r.php',
   elements: {
     body: 'body',
     searchBar: 'input[name="p"]',
@@ -51,49 +51,6 @@ module.exports = {
             control = "@IdYearControl"; 
             break;
       } 
-
-      if(_control = "month")
-        {
-          switch (_value) {
-            case 'Jan':
-              _value = 'Ene'; 
-              break;
-            case 'Feb':
-              _value = 'Feb'; 
-              break;
-            case 'Mar':
-              _value = 'Mar'; 
-              break;
-            case 'Apr':
-              _value = 'Abr'; 
-              break;
-            case 'May':
-              _value = 'May'; 
-              break;
-            case 'Jun':
-              _value = 'Jun'; 
-              break;
-            case 'Jul':
-              _value = 'Jul'; 
-              break;
-            case 'Aug':
-              _value = 'Ago'; 
-              break;
-            case 'Sep':
-              _value = 'Sep'; 
-              break;
-            case 'Oct':
-              _value = 'Oct'; 
-              break;
-            case 'Nov':
-              _value = 'Nov'; 
-              break;
-            case 'Dec':
-              _value = 'Dec'; 
-              break;
-          }
-        }
-
       return this
           .setValue(`${control}`, _value)
           .pause(2000);  

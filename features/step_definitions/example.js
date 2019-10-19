@@ -23,22 +23,28 @@ Then(/^the title is "([^"]*)"$/, title_ => {
   return this.FacePage.assert.title(title_);
 });
 
-Then(/^I write the text "([^"]*)" in the "([^"]*)" form$/, (text,form) => {
-  // Insert the text in the form
-  return this.FacePage.WriteForm(text,form);
+When(/^I fill all required account’s information$/, () => {
+  // Write the text "Juanito Alimaña" in the "first name" form
+  this.FacePage.WriteForm("Juanito Alimaña","first name");
+  // Write the text "Lavoe" in the "last name" form
+  this.FacePage.WriteForm("Lavoe","last name");
+  // Write the text "migan701@gmail.com" in the "email" form
+  this.FacePage.WriteForm("migan701@gmail.com","email");
+  // Write the text "migan701@gmail.com" in the "re-enter email" form
+  this.FacePage.WriteForm("migan701@gmail.com","re-enter email");
+  // Write the text "Pas_123456" in the "password" form
+  this.FacePage.WriteForm("Pas_123456","password");
+  // Select "Aug" in the "month" control
+  this.FacePage.SetValControl("Aug","month");
+  // Select "21" in the "day" control
+  this.FacePage.SetValControl("21","day");
+  // Select "1989" in the "year" control
+  this.FacePage.SetValControl("1989","year");
+  // Select Male in the Gender option
+  return this.FacePage.SelMaleGender(); 
 });
 
-Then(/^I select "([^"]*)" in the "([^"]*)" control$/, (_value,_control) => {
-  // Insert the text in the form
-  return this.FacePage.SetValControl(_value,_control);
-});
-
-Then(/^I select Male in the Gender option$/, () => {
-  // Select Male in the gender control
-  return this.FacePage.SelMaleGender();
-});
-
-Then(/^I click the Sing-In button$/, () => {
+Then(/^I can create a new account$/, () => {
   // click the Sing-In button  
   return this.FacePage.ClickSingUp();
 });
